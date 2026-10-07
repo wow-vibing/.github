@@ -12,6 +12,7 @@ built on [AzerothCore](https://github.com/azerothcore/azerothcore-wotlk) and its
 | `wow-asset-pipeline` | `wowap` CLI: audio convert/verify, DBC inspection, patch validation, MPQ build |
 | `acore-dev-env` | Reproducible AzerothCore + mod-ale docker environment: pinned versions, overlays, deploy/restart scripts |
 | `claude-wow-plugin` | Claude Code plugin: modding skills, specialised agents and safety hooks |
+| `wow-docs` | Documentation site (MkDocs, WoW-inspired theme) covering the toolchain, pipelines and raids |
 
 ## Focus
 - **Raid encounters first**: 10- and 25-player bosses scripted in Lua (mod-ale), starting with a one-boss Orgrimmar arena raid
