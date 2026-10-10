@@ -28,7 +28,7 @@ built on [AzerothCore](https://github.com/azerothcore/azerothcore-wotlk) and its
 ```
 
 `wowmod`, `wdbc` and `wowap` share one contract (`--json` output and exit codes `0` ok, `1` check failed, `2` usage, `3` refused,
-`4` environment); the `acore-dev-env` commands use the same exit codes and are dry runs unless given `--apply`.
+`4` environment); the `acore-dev-env` commands use the same exit codes, and the ones that change state are dry runs unless given `--apply`.
 
 ## Getting started (members)
 
