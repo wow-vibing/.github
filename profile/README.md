@@ -27,7 +27,8 @@ built on [AzerothCore](https://github.com/azerothcore/azerothcore-wotlk) and its
  runtime       client patch (MPQ)                      AzerothCore + mod-ale (docker)
 ```
 
-Every CLI shares one contract: `--json` output and exit codes `0` ok, `1` check failed, `2` usage, `3` refused, `4` environment.
+`wowmod`, `wdbc` and `wowap` share one contract (`--json` output and exit codes `0` ok, `1` check failed, `2` usage, `3` refused,
+`4` environment); the `acore-dev-env` commands use the same exit codes and are dry runs unless given `--apply`.
 
 ## Getting started (members)
 
